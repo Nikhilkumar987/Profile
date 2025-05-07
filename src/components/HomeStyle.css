@@ -1,0 +1,9 @@
+
+@keyframes scroll-horizontal {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .animate-scroll-x {
+    animation: scroll-horizontal 15s linear infinite;
+  }
+  
