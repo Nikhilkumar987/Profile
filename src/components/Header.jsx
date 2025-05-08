@@ -10,7 +10,7 @@ function Header() {
 
                 {/* Logo Section */}
                 <div className="flex items-center space-x-3">
-                    <img src="" alt="logo" className="w-10 h-10 object-cover rounded-full bg-gray-200" />
+                    <img src="src/assets/devLogo.jpg" alt="logo" className="w-10 h-10 object-cover rounded-full bg-gray-200" />
                     <span className="text-xl font-bold text-gray-800">Nikhil Kumar</span>
                 </div>
 
@@ -28,28 +28,7 @@ function Header() {
                             Home
                         </NavLink>
                     </li>
-                    <li>
-            <ScrollLink
-              to="aboutMe"
-              smooth={true}
-              duration={500}
-              className="cursor-pointer hover:text-orange-700"
-              offset={-70}
-            >
-              About
-            </ScrollLink>
-          </li>
-          <li>
-            <ScrollLink
-              to="Skills"
-              smooth={true}
-              duration={500}
-              className="cursor-pointer hover:text-orange-700"
-              offset={-70}
-            >
-              Skills
-            </ScrollLink>
-          </li>
+
           <li>
             <ScrollLink
               to="contact"
@@ -72,6 +51,17 @@ function Header() {
                         >
                             Resume
                         </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                      to="/projects"
+                      className={({isActive})=>
+                      isActive?
+                    "text-orange-700 border-b-2 border-orange-700 pb-1":
+                  "hover:text-orange-700"}
+                      >
+                        Projects
+                      </NavLink>
                     </li>
                 </ul>
             </nav>
