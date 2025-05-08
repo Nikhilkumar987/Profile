@@ -10,7 +10,7 @@ function Header() {
 
                 {/* Logo Section */}
                 <div className="flex items-center space-x-3">
-                    <img src="src/assets/devLogo.jpg" alt="logo" className="w-10 h-10 object-cover rounded-full bg-gray-200" />
+                    <img src="/devLogo.jpg" alt="logo" className="w-10 h-10 object-cover rounded-full bg-gray-200" />
                     <span className="text-xl font-bold text-gray-800">Nikhil Kumar</span>
                 </div>
 

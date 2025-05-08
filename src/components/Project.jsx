@@ -5,28 +5,28 @@ const projects = [
     id: 1,
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my projects and skills, built using React and Tailwind CSS.",
-    image: "src/assets/Portfolio.png",
+    image: "/Portfolio.png",
     live:"https://portfolio-yr82.vercel.app/"
   },
   {
     id: 2,
     title: "Note App",
     description: "A Simple Note taking app to take note in simple and easy way and acess them anytime .",
-    image: "/src/assets/NoteApp.png",
+    image: "/NoteApp.png",
     live:"https://github.com/Nikhilkumar987/Note-App"
   },
   {
     id: 3,
     title: "Tailwind landing page",
     description: "A impressive landing page with infinte scroll of icon and working FAQ's.",
-    image: "src/assets/Tailwind.png",
+    image: "/Tailwind.png",
     live:"https://github.com/Nikhilkumar987/TailwindProject/tree/master"
   },
   {
     id: 4,
     title: "Chat Application",
     description: "A real-time chat app using React, Firebase Realtime DB, and authentication features.",
-    image: "src/assets/ChatApp.png",
+    image: "/ChatApp.png",
     live:"https://chatapp-96b5f.firebaseapp.com/"
   },
 
